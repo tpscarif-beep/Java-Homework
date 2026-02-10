@@ -7,8 +7,9 @@ public class Arif {
     if (n % 400 == 0 || n % 4 == 0 && n % 100 != 0) {
       System.out.println(n + " It's a leap year!");
     } else {
-      System.out.println(n + "It's not a leap year !");
+      System.out.println(n + " It's not a leap year !");
     }
+    sc.close();
   }
 
 }
